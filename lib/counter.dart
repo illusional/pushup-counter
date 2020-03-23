@@ -34,16 +34,15 @@ class _CounterState extends State<CounterWidget> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                Text(
-                  'You have completed this many push-ups:',
-                ),
-                Text(
-                  '$_reps',
-                  style: Theme.of(context).textTheme.display1,
-                ),
+                Text('$_reps', style: TextStyle(fontSize: 64)),
+                Padding(
+                    padding: EdgeInsets.only(top: 20, bottom: 40),
+                    child: Text(
+                      'You have completed this many push-ups',
+                    )),
                 Padding(
                   child: RaisedButton(
-                    child: Text("I did 5 pushups!"),
+                    child: Text("I did 5 pushups"),
                     onPressed: () => _addReps(reps: 5),
                   ),
                   padding: EdgeInsets.only(top: 10),

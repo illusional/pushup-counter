@@ -1,6 +1,46 @@
-# pushup_counter
+# Push-up Counter
 
-A new Flutter project.
+A very simple mobile app to count push-ups on a daily basis.
+
+The very basic implemented functionality:
+
+- Increment by 5 or 10
+- See the previous week of push-ups:
+    - (It stores them all, just only displays the last 7 days)
+
+
+## Technology
+
+This app is built using Dart and [Flutter](https://flutter.dev/), and SQLite for data persistence.
+
+## Screenshots
+
+![Home screen](/resources/2020-03-23-homescreen.jpeg "Hover over")
+
+![Daily total](/resources/2020-03-23-daily-total.jpeg "daily total")
+
+
+## Future goals
+
+- Configuration options:
+    - Set a daily goal
+    - Upload a set of daily goals that could fluctuate (thinking the [_Push-up Challenge_](https://www.thepushupchallenge.com.au/))
+
+- Local notification that tells you how many left for the day as motiviation.
+
+- Better historical view:
+    - With graphs, everyone likes graphs.
+
+- Better support for timezones
+    - Dates are stored as instances in time,
+    - Currently it'll show the push-ups as if they were in your local timezone
+
+- Categorise different _types_ of push-ups, eg:
+    - Traditional,
+    - Wide grip,
+    - Diamond,
+    - and maybe suggest what you should do to be more well-rounded.
+
 
 ## Getting Started
 
