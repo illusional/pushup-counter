@@ -15,9 +15,7 @@ This app is built using Dart and [Flutter](https://flutter.dev/), and SQLite for
 
 ## Screenshots
 
-![Home screen](/resources/2020-03-23-homescreen.jpeg "Hover over")
-
-![Daily total](/resources/2020-03-23-daily-total.jpeg "daily total")
+<img src="resources/2020-03-23-homescreen.jpeg" width="256" title="Homescreen"> <img src="resources/2020-03-23-daily-total.jpeg" width="256" title="Homescreen">
 
 
 ## Future goals
